@@ -1,0 +1,56 @@
+.messageWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+
+}
+
+.avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    align-self: end;
+    margin-right: 20px;
+}
+.mainInfo{
+max-width: 300px;
+    background-color: #61dafb;
+    position: relative;
+    border-radius: 20px 20px 20px 0px;
+}
+.mainInfo::before{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -6px;
+    top: 98px;
+    border: 7px solid;
+    border-radius: 50px 0 0 0;
+    border-color: #61dafb;
+}
+.mainInfo::after{
+    content: ' ';
+    position: absolute;
+
+    width: 0;
+    height: 0;
+    left: 1px;
+    top: 100px;
+    border: 5px solid;
+    border-color: #61dafb ;
+}
+.mainInfo .authorName{
+    color: brown;
+    font-family: "Californian FB";
+    margin-left: 10px;
+}
+.messageTime{
+    display: flex;
+    flex-direction: row;
+
+}
+.mainMessage{
+    margin: 10px;
+    word-wrap: break-word;
+}
