@@ -1,3 +1,37 @@
 .someClass {
 
 }
+.button{
+    margin: 15px;
+    width: 70px;
+    height: 30px;
+    background: #61dafb;
+    color: #282c34;
+    outline: none;
+}
+.button:focus{
+    outline: azure solid 2px;
+}
+.button:active{
+    background: aquamarine;
+}
+.active{
+    background: blue;
+}
+.affair{
+    display: flex;
+}
+.item{
+    margin: 15px;
+    width: 60px;
+    margin-left: 60px;
+}
+.high{
+    color: brown;
+}
+.middle{
+    color: crimson;
+}
+.low{
+    color: hotpink;
+}
