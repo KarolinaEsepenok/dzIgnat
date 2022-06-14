@@ -23,13 +23,17 @@
     border: 2px solid crimson;
     outline: none;
 }
-.button{
-    margin: 15px;
+ button{
+
     width: 60px;
-    background: lemonchiffon;
+    background: #61dafb;
     color: #282c34;
     outline: none;
+     border-radius: 30px;
 }
+ button:hover{
+     opacity: 0.8 ;
+ }
 span{
     margin-left: 10px;
 }

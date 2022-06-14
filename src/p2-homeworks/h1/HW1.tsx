@@ -2,7 +2,7 @@ import React from 'react'
 import Message from "./Message";
 
 const messageData = {
-    avatar: 'https://www.interfax.ru/ftproot/photos/photostory/2019/07/09/week4_700.jpg',
+    avatar: 'https://kolobok.ua/i/97/11/41/971141/image_main/a9dff2ad42341fb7152def8cadb7822b-quality_70Xresize_crop_1Xallow_enlarge_0Xw_698Xh_465.jpg',
     name: 'Artem',
     message: 'npm start нажимал? ',
     time: '22:00'
