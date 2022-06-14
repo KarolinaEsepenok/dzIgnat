@@ -2,9 +2,12 @@
     display: flex;
     flex-direction: row;
     align-items: start;
+    margin: 0 auto;
+    margin-left: 10px;
+    font-family:"Poppins";
+
 
 }
-
 .avatar{
     width: 60px;
     height: 60px;
@@ -13,8 +16,9 @@
     margin-right: 20px;
 }
 .mainInfo{
-max-width: 300px;
+    max-width: 400px;
     background-color: #61dafb;
+    opacity: 0.8;
     position: relative;
     border-radius: 20px 20px 20px 0px;
 }
@@ -32,7 +36,6 @@ max-width: 300px;
 .mainInfo::after{
     content: ' ';
     position: absolute;
-
     width: 0;
     height: 0;
     left: 1px;
@@ -41,16 +44,23 @@ max-width: 300px;
     border-color: #61dafb ;
 }
 .mainInfo .authorName{
-    color: brown;
-    font-family: "Californian FB";
+    color: #282c34;
+
     margin-left: 10px;
+    padding-left: 10px;
 }
 .messageTime{
     display: flex;
     flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
 .mainMessage{
     margin: 10px;
     word-wrap: break-word;
+}
+.mainMessage p{
+    padding-right: 10px
+;
 }

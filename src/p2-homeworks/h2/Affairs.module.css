@@ -1,22 +1,28 @@
-.someClass {
 
-}
 .button{
     margin: 15px;
     width: 70px;
     height: 30px;
-    background: #61dafb;
+    background: lemonchiffon;
     color: #282c34;
     outline: none;
+    border-radius: 30px;
+    font-family: "Poppins";
+    font-weight: bold;
+    transition: 0.8s;
+}
+.button:hover{
+    background: #61dafb;
+    opacity: 0.5;
 }
 .button:focus{
     outline: azure solid 2px;
 }
 .button:active{
-    background: aquamarine;
+    background: gainsboro;
 }
 .active{
-    background: blue;
+    background: #61dafb;
 }
 .affair{
     display: flex;

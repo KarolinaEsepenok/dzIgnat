@@ -1,7 +1,35 @@
-.someClass {
+.greeting{
+    display: flex;
+    align-items: flex-start;
+}
+.error {
+   color: crimson;
+    height: 20px;
+    margin-left: 15px;
 
 }
+.input{
 
-.error {
-    border: 1px solid red;
+    background: lemonchiffon;
+    color: #282c34;
+}
+.input:focus{
+    outline: none;
+    border: #282c34 solid 2px;
+}
+.errorInput{
+    margin: 15px;
+    background: lemonchiffon;
+    border: 2px solid crimson;
+    outline: none;
+}
+.button{
+    margin: 15px;
+    width: 60px;
+    background: lemonchiffon;
+    color: #282c34;
+    outline: none;
+}
+span{
+    margin-left: 10px;
 }
