@@ -24,8 +24,8 @@ const Greeting: React.FC<GreetingPropsType> = (
                    onKeyDown={onEnter}
                    onBlur={setNameCallback}/>
             <div className={s.error}>{error}</div>
-            <button  onClick={addUser}>add</button>
-            <span>{totalUsers}</span>
+            <button  onClick={addUser} className={s.button} disabled={!name}>add</button>
+            <div className={s.count}>{totalUsers}</div>
         </div>
     )
 }
