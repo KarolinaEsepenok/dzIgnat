@@ -15,7 +15,6 @@ type GreetingContainerPropsType = {
 const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUserCallback}) => { // деструктуризация пропсов
     const [name, setName] = useState<string>('') // need to fix any
     const [error, setError] = useState<string>('') // need to fix any
-
     const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => { // need to fix any
        const trinmedName = e.currentTarget.value.trim()
         if (trinmedName){
@@ -37,9 +36,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
             setName('')// need to fix
         }
     }
-
     const totalUsers = users.length // need to fix
-
     return (
         <Greeting
             name={name}
