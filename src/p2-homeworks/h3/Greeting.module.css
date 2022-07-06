@@ -1,39 +1,47 @@
-.greeting{
+.greeting {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
 }
+
 .error {
-   color: crimson;
+    color: crimson;
     height: 20px;
     margin-left: 15px;
 
 }
-.input{
 
-   background: lemonchiffon;
-    color: #282c34;
+.input {
+    background: lemonchiffon;
+    color: #000;
 }
-.input:focus{
+
+.input:focus {
     outline: none;
     border: #282c34 solid 2px;
 }
-.errorInput{
-    margin: 15px;
+
+.errorInput {
     background: lemonchiffon;
     border: 2px solid crimson;
     outline: none;
 }
- button{
+
+button {
 
     width: 60px;
     background: #61dafb;
     color: #282c34;
     outline: none;
-     border-radius: 30px;
+    border-radius: 30px;
 }
- button:hover{
-     opacity: 0.8 ;
- }
-span{
+
+button:hover {
+    opacity: 0.8;
+}
+
+span {
+    margin-left: 10px;
+}
+.count{
     margin-left: 10px;
 }
