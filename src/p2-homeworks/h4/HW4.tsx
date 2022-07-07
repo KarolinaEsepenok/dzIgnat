@@ -10,7 +10,7 @@ function HW4() {
 
     const showAlert = () => {
         if (error) {
-            alert('введите текст...')
+            alert('kkkkkkk')
         } else {
             alert(text) // если нет ошибки показать текст
         }
@@ -22,7 +22,7 @@ function HW4() {
     return (
         <div>
             <hr/>
-            homeworks 4
+            homewo
 
             <div className={s.column}>
                 <SuperInputText
