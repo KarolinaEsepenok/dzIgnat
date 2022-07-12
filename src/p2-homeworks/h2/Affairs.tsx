@@ -38,7 +38,7 @@ function Affairs(props: AffairsPropsType) {
 
 
     return (
-        <div >
+        <div className={s.buttonFilter}>
             {mappedAffairs}
             <button onClick={set} className={setClass('all')} value={'all'}>All</button>
             <button onClick={set} className={setClass('high')} value={'high'}>High</button>

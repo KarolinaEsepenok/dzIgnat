@@ -1,3 +1,10 @@
 .App {
+    font-family: "Lucida Bright";
+    font-size: large;
+    align-items: center;
+    display: flex;
+    justify-content: inherit;
+    flex-direction: column;
+    background-color: lightblue;
 
 }
