@@ -10,15 +10,15 @@ function App() {
     return (
         <div className={s.App}>
             <div>react homeworks:</div>
-            <HW1/>
+            {/*  <HW1/>
             <HW2/>
 
             <HW3/>
 
-            {/* eslint-disable-next-line react/jsx-no-undef */}
-            <HW4/>
+            eslint-disable-next-line react/jsx-no-undef
+            <HW4/>*/}
             <HW5/>
-            <div>hu</div>
+
 
         </div>
     )
