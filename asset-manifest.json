@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dzIgnat/static/css/main.1ce58e2d.chunk.css",
+    "main.js": "/dzIgnat/static/js/main.225d361b.chunk.js",
+    "main.js.map": "/dzIgnat/static/js/main.225d361b.chunk.js.map",
+    "runtime-main.js": "/dzIgnat/static/js/runtime-main.1bdde955.js",
+    "runtime-main.js.map": "/dzIgnat/static/js/runtime-main.1bdde955.js.map",
+    "static/js/2.59f8beaa.chunk.js": "/dzIgnat/static/js/2.59f8beaa.chunk.js",
+    "static/js/2.59f8beaa.chunk.js.map": "/dzIgnat/static/js/2.59f8beaa.chunk.js.map",
+    "index.html": "/dzIgnat/index.html",
+    "precache-manifest.155bd058b9b76c3deaa109a075aaadeb.js": "/dzIgnat/precache-manifest.155bd058b9b76c3deaa109a075aaadeb.js",
+    "service-worker.js": "/dzIgnat/service-worker.js",
+    "static/css/main.1ce58e2d.chunk.css.map": "/dzIgnat/static/css/main.1ce58e2d.chunk.css.map",
+    "static/js/2.59f8beaa.chunk.js.LICENSE.txt": "/dzIgnat/static/js/2.59f8beaa.chunk.js.LICENSE.txt",
+    "static/media/SuperCheckbox.module.css": "/dzIgnat/static/media/checkbox-png.3926c099.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1bdde955.js",
+    "static/js/2.59f8beaa.chunk.js",
+    "static/css/main.1ce58e2d.chunk.css",
+    "static/js/main.225d361b.chunk.js"
+  ]
+}
