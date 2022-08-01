@@ -1,6 +1,28 @@
-.app{
-color:red
+.link{
+    text-decoration: none;
+    color: #0000ff;
+    margin: 10px;
 }
-.app h1{
-    font-size: large;
+.link:hover{
+    color: #282c34;
+}
+.active{
+    color: blue;
+}
+.block{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    background: blue;
+
+}
+.header{
+    display: flex;
+    width: 250px;
+    transition-duration: 1000ms;
+    transform: translate(-965px);
+}
+.header:hover{
+    transition-duration: 1000ms;
+    transform: translate(0);
 }
