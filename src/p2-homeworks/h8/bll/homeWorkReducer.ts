@@ -4,7 +4,7 @@ export const homeWorkReducer = (state: any, action: any): any => { // need to fi
             // need to fix
             return state
         }
-        case 'check': {
+        case 'chec': {
             // need to fix
             return state
         }
