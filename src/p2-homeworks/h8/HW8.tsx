@@ -28,11 +28,11 @@ function HW8() {
         <div key={p._id} className={s.userItems}>
             <span>{p.name}</span>
             <span>{p.age}</span>
-            some name, age
+
         </div>
     ))
 
-    const sort = () => setPeople(homeWorkReducer(initialPeople, {type: 'sort', payload: 'up'}))
+    const sortUp = () => setPeople(homeWorkReducer(initialPeople, {type: 'sort', payload: 'up'}))
     const sortDown = () => setPeople(homeWorkReducer(initialPeople, {type: 'sort', payload: 'down'}))
     const check18 = () => setPeople(homeWorkReducer(initialPeople, {type: 'check', payload: 18}))
     return (

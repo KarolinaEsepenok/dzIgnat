@@ -20,7 +20,7 @@
     display: flex;
     width: 250px;
     transition-duration: 1000ms;
-    transform: translate(-965px);
+    transform: translate(-300px);
 }
 .header:hover{
     transition-duration: 1000ms;
