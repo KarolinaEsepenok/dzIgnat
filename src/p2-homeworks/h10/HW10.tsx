@@ -13,6 +13,7 @@ function HW10() {
   //  const loading = false
 
     const setLoading = () => {
+
         dispatch(loadingAC( true))
         setTimeout(()=>{
             dispatch(loadingAC( false))
