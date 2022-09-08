@@ -14,7 +14,7 @@ function HW12() {
             <span className={s[theme + '-text']}>
                 homeworks 12
             </span>
-
+<div></div>
             {/*should work (должно работать)*/}
             {/*SuperSelect or SuperRadio*/}
 

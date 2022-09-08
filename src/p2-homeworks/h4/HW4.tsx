@@ -15,7 +15,6 @@ function HW4() {
             alert(text) // если нет ошибки показать текст
         }
     }
-
     const [checked, setChecked] = useState<boolean>(false)
     const testOnChange = (e: ChangeEvent<HTMLInputElement>) => setChecked(e.currentTarget.checked)
 

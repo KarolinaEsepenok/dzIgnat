@@ -22,10 +22,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
 
         /*const trinmedName = e.currentTarget.value.trim()
         if (trinmedName) {
-
-
         } else {
-
         }*/
     }
     const addUser = () => {
